@@ -4,22 +4,74 @@
   | default @import url()
   |============================
 */
+@import url('./modern-normalize.css');
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./about.css');
+@import url('./advantages.css');
+@import url('./footer.css');
+@import url('./cookie.css');
+@import url('./location.css');
+@import url('./thankyou-modal.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+body {
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  background-color: white;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  .container {
+    max-width: 1136px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+  }
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  .section {
+    padding-top: 128px;
+    width: 100%;
+  }
+
+.is-hidden {
+  display: block;
+}
+
+.open-modal {
+  animation: open-modal 1s ease-in both;
+}
+
+@keyframes open-modal {
+  0% {
+    transform: translateX(-800px) rotateY(30deg) scale(0);
+    transform-origin: -100% 50%;
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0) rotateY(0) scale(1);
+    transform-origin: 1800px 50%;
+    opacity: 1;
+  }
+}
+
+.close-modal {
+  animation: close-modal 1500ms ease-in both;
+}
+
+@keyframes close-modal {
+  0% {
+    transform: translateX(0) rotateY(0) scale(1);
+    transform-origin: 2000px 50%;
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-1000px) rotateY(30deg) scale(0);
+    transform-origin: -100% 50%;
+    opacity: 1;
+  }
 }

@@ -1,0 +1,32 @@
+.cookie-popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.agree-button {
+  color: black;
+  padding: 12px 28px;
+  border-radius: 100px;
+  background-color: white;
+  font-family: 'Montserrat';
+  border-style: none;
+  border: 1px solid black;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px 30px;
+  margin-left: 400px;
+  transition: background-color 0.3s ease;
+}
+.agree-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.537);
+  color: white;
+}
