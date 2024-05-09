@@ -6,6 +6,7 @@ _Role: developer_
 _Individual project_
 
 The website was created to serve as a landing page for a consulting company, catering specifically to the German-speaking audience in Switzerland. Its primary purpose is to provide information about the company's services, showcase its unique advantages, offer a contact form for inquiries, display the company's location on a map, and ensure compliance with data protection regulations through a cookie pop-up. Overall, the website aims to attract potential clients, provide them with relevant information, and facilitate communication with the company.
+
 ---
 ## Technical Specifications
 
