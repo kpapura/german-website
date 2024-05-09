@@ -1,5 +1,5 @@
 # Germany Consulting Web
-[Live page](https://kpapura.github.io/german-website/)
+[Live page](https://kpapura.github.io/germany-website/)
 
 _Role: developer_
 
@@ -43,6 +43,6 @@ This application has the following technologies:
 ---
 ### Instalation
 To run this project just follow these steps:
-- clone the repository using the command _`git clone https://kpapura.github.io/german-website/`_
+- clone the repository using the command _`git clone https://kpapura.github.io/germany-website/`_
 -  install the dependencies using the command _`npm install`_
 -  start the project using the command _`npm run dev`_
