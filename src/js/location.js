@@ -2,8 +2,8 @@
     var photo = document.getElementById("mapContainer");
 
     photo.addEventListener("click", function() {
-      var latitude = "52.51968268135677";
-      var longitude = "13.375948164717533";
+      var latitude = "47.17615234321743";
+      var longitude = "8.50702517021836";
 
       var mapURL = "https://www.google.com/maps/place/" + latitude + "," + longitude;
 
