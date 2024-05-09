@@ -1,11 +1,11 @@
 {
-  "name": "german-website",
+  "name": "germany-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/german-website/",
+    "build": "vite build --base=/germany-website/",
     "preview": "vite preview"
   },
   "devDependencies": {
